@@ -15,7 +15,7 @@ const Tutor = db.define('Tutor', {
         required: true
     },
     date_of_birth: {
-        type: DataTypes.DATE,
+        type: DataTypes.DATE ,
         required: true
     },
     zip_code: {
