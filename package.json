@@ -1,0 +1,28 @@
+{
+  "name": "desafio-projeto-pets-clinic",
+  "version": "1.0.0",
+  "description": "Este projeto é o desafio 1 da trilha de aprendizado.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sthephanny-jrv/desafio-projeto-pets-clinic.git"
+  },
+  "author": "Sthephanny Jamilly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sthephanny-jrv/desafio-projeto-pets-clinic/issues"
+  },
+  "homepage": "https://github.com/sthephanny-jrv/desafio-projeto-pets-clinic#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
