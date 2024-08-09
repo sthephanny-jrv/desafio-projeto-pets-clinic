@@ -20,7 +20,7 @@ router.get('/tutors', async (req, res) => { //Liste todos os tutores
           return p
         }
       })
-      tutor.pets.push(...pet); //...pet adiciona objetos do array pet no outro array
+      tutor.pets.push(...pet); 
     }    
     res.json(tutors)
   } catch (error) {
@@ -55,8 +55,9 @@ router.put('/tutor/:id', async (req, res) => { //Atualiza um tutor existente
       phone,
       email,
       date_of_birth,
-      zip_code}
-    //let tutor = await Tutor.findOne({ where: {id: tutorId}})
+      zip_code
+    }
+    
     await Tutor.update(newTutor, { where: {id: tutorId}});
     
     res.json(newTutor)
@@ -77,7 +78,6 @@ router.delete('/tutor/:id', async (req, res) => { //Deleta um tutor
     console.log(error)
   }
 })
-
 
 module.exports = router;
 
