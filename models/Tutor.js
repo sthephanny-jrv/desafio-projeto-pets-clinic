@@ -1,5 +1,6 @@
 const { DataTypes} = require('sequelize');
 const db = require('../db/conn');
+const Pet = require('../models/Pet');
 
 const Tutor = db.define('Tutor', {
     name: {
@@ -24,4 +25,8 @@ const Tutor = db.define('Tutor', {
     }    
 })
 
+Tutor.hasMany(Pet, {foreignKey: 'tutorId'})
+Pet.belongsTo(Tutor, {foreignKey: 'tutorId'})
+
 module.exports = Tutor
+

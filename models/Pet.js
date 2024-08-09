@@ -1,4 +1,4 @@
-const { DataTypes } = require('sequelize');
+const { DataTypes, HasMany } = require('sequelize'); //const { DataTypes, HasMany } = require('sequelize');
 const db = require('../db/conn');
 const Tutor = require('./Tutor');
 
@@ -25,6 +25,7 @@ const Pet = db.define('Pet', {
     }
 })
 
-Pet.belongsTo(Tutor)
+
+
 
 module.exports = Pet
