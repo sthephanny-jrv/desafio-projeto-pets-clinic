@@ -4,12 +4,12 @@
 <p align="center">Este repositório é do projeto Pets Clinic do desafio da semana 4 da trilha NODE.JS + AWS_JUL24.</p>
 
 <p align="center">
-    <a href="#sobre">Sobre</a>
-    <a href="#tecnologias">Tecnologias</a>
-    <a href="#pré-requisitos">Pré-requisitos</a>
-    <a href="#passo-a-passo">Passo a passo</a>
-    <a href="#rotas">Rotas</a>
-    <a href="#licença">Licença</a>
+    <a href="#sobre">Sobre</a> /
+    <a href="#tecnologias">Tecnologias</a> /
+    <a href="#pré-requisitos">Pré-requisitos</a> /
+    <a href="#passo-a-passo">Passo a passo</a> /
+    <a href="#rotas">Rotas</a> /
+    <a href="#licença">Licença</a> /
     <a href="#autor">Autor</a>
 </p>
  
