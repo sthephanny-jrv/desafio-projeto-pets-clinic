@@ -75,5 +75,5 @@ Para os pets:
 O projeto Pets Clinic é licenciado pelo [ISC](https://opensource.org/license/isc-license-txt)
 
 # Autor
-Projeto desenvolvido por Sthephanny Jamilly. [Veja meu LinkedIn](https:www.linkedin.com/in/sthephanny-jamilly)
+Projeto desenvolvido por Sthephanny Jamilly. [Veja meu LinkedIn](https://www.linkedin.com/in/sthephanny-jamilly)
 
