@@ -1,7 +1,5 @@
 <h1 align="center">Projeto Pets Clinic</h1>
-<img alt="Static Badge" src="https://img.shields.io/badge/license%20-%20ISC%20-%20green">
-<img alt="Static Badge" src="https://img.shields.io/badge/version-1.0.0-blue">
-<img alt="Static Badge" src="https://img.shields.io/badge/release%20date-august-turquoise">
+<img alt="Static Badge" src="https://img.shields.io/badge/license%20-%20ISC%20-%20green"> <img alt="Static Badge" src="https://img.shields.io/badge/version-1.0.0-blue"> <img alt="Static Badge" src="https://img.shields.io/badge/release%20date-august-turquoise">
 
 <p align="center">Este repositório é do projeto Pets Clinic do desafio da semana 4 da trilha NODE.JS + AWS_JUL24.</p>
 
@@ -41,7 +39,7 @@ Além disso, é bom ter um editor para trabalhar com o código como [VSCode](htt
 
 Passo a passo para executar o projeto:
 
-Baixe o projeto em arquivo zip e abra a pasta do projeto no editor de código ou clone este repositório usando o [URL](https://github.com/sthephanny-jrv/desafio-projeto-pets-clinic.git).
+Baixe o projeto em arquivo zip e abra a pasta no editor de código ou clone este repositório usando o [URL](https://github.com/sthephanny-jrv/desafio-projeto-pets-clinic.git).
 
 Siga as instruções abixo para rodar o projeto:
 
