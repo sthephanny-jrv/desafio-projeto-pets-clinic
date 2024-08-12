@@ -20,6 +20,7 @@ Este projeto é a parte Back-End de uma Clínica de Animais. Nele podem ser feit
 
 Foi desenvolvido na linguagem [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) juntamente com [Node.js](https://nodejs.org/en/about), o framework [Express](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction), e o Object-Relational Mapping (ORM) [Sequelize](https://sequelize.org/) conectado ao banco de dados relacional [MySQL](https://www.mysql.com/).
 
+
 Toda a documentação foi feita com [Swagger](https://swagger.io/specification/).
 
 Versões das dependências utilizadas:
