@@ -20,7 +20,6 @@ Este projeto é a parte Back-End de uma Clínica de Animais. Nele podem ser feit
 
 Foi desenvolvido na linguagem [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) juntamente com [Node.js](https://nodejs.org/en/about), o framework [Express](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction), e o Object-Relational Mapping (ORM) [Sequelize](https://sequelize.org/) conectado ao banco de dados relacional [MySQL](https://www.mysql.com/).
 
-
 Toda a documentação foi feita com [Swagger](https://swagger.io/specification/).
 
 Versões das dependências utilizadas:
@@ -35,7 +34,7 @@ OBS.: Caso o código não funcione devido à atualizações das versões das dep
 
 # Pré-requisitos
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: [Git](https://git-scm.com/), [Node.js](https://nodejs.org/en), [XAMPP](https://www.apachefriends.org/) e [Postman](https://www.postman.com/downloads/).
+Antes de começar, você precisa ter instalado em sua máquina as seguintes ferramentas: [Git](https://git-scm.com/), [Node.js](https://nodejs.org/en), [XAMPP](https://www.apachefriends.org/) e [Postman](https://www.postman.com/downloads/).
 
 Além disso, é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
 
