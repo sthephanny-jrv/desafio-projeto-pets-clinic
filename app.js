@@ -1,12 +1,12 @@
+const swaggerUI = require('swagger-ui-express');
+const YAML = require('yamljs');
+
 const express = require('express')
 const app = express();
 const port = 5000;
 const conn = require('./db/conn');
 const tutorRouter = require('./routes/tutors');
 const petRouter = require('./routes/pets');
-
-const Tutor = require('./models/Tutor');
-const Pet = require('./models/Pet');
 
 app.use(
     express.urlencoded({
@@ -15,13 +15,11 @@ app.use(
   )
 app.use(express.json())
 
+const swaggerDocument = YAML.load('./openapi.yaml');
+app.use('/api-docs', swaggerUI.serve, swaggerUI.setup(swaggerDocument));
 
 app.use('/', tutorRouter);
 app.use('/pet', petRouter);
-
-app.get('/', (req, res) => {
-    res.send('Rota Raiz');
-});
 
 conn
   .sync()

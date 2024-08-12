@@ -8,7 +8,7 @@ const Tutor = db.define('Tutor', {
         required: true
     },
     phone: {
-        type: DataTypes.INTEGER,
+        type: DataTypes.DOUBLE,
         required: true
     },
     email: {
@@ -16,11 +16,11 @@ const Tutor = db.define('Tutor', {
         required: true
     },
     date_of_birth: {
-        type: DataTypes.DATE ,
+        type: DataTypes.DATEONLY,
         required: true
     },
     zip_code: {
-        type: DataTypes.INTEGER,
+        type: DataTypes.DOUBLE,
         required: true
     }    
 })

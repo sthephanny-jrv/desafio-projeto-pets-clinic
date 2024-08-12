@@ -1,6 +1,5 @@
-const { DataTypes, HasMany } = require('sequelize'); //const { DataTypes, HasMany } = require('sequelize');
+const { DataTypes } = require('sequelize');
 const db = require('../db/conn');
-const Tutor = require('./Tutor');
 
 const Pet = db.define('Pet', {
     name: {
@@ -20,12 +19,10 @@ const Pet = db.define('Pet', {
         required: true
     },
     date_of_birth: {
-        type: DataTypes.DATE,
+        type: DataTypes.DATEONLY,
         required: true
     }
 })
-
-
 
 
 module.exports = Pet
