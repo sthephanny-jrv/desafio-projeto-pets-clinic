@@ -22,6 +22,10 @@ Foi desenvolvido na linguagem [JavaScript](https://developer.mozilla.org/en-US/d
 
 Toda a documentação foi feita com [Swagger](https://swagger.io/specification/).
 
+Obs: O link da API irá funcionar depois que rodar o projeto (passo 3 do passo a passo).
+
+Link da documentação da API: http://localhost:5000/api-docs/
+
 Versões das dependências utilizadas:
 - express: 4.19.2
 - mysql2: 3.11.0

@@ -15,7 +15,7 @@ app.use(
   )
 app.use(express.json())
 
-const swaggerDocument = YAML.load('./openapi.yaml');
+const swaggerDocument = YAML.load('./swagger.yaml');
 app.use('/api-docs', swaggerUI.serve, swaggerUI.setup(swaggerDocument));
 
 app.use('/', tutorRouter);
