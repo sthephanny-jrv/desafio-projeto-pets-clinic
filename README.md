@@ -1,8 +1,6 @@
 <h1 align="center">Projeto Pets Clinic</h1>
 <p><img alt="Static Badge" src="https://img.shields.io/badge/license%20-%20ISC%20-%20green"> <img alt="Static Badge" src="https://img.shields.io/badge/version-1.0.0-blue"> <img alt="Static Badge" src="https://img.shields.io/badge/release%20date-august-turquoise"></p>
 
-<p align="center">Este repositório é do projeto Pets Clinic do desafio da semana 4 da trilha NODE.JS + AWS_JUL24.</p>
-
 <p align="center">
     <a href="#sobre">Sobre</a> /
     <a href="#tecnologias">Tecnologias</a> /
